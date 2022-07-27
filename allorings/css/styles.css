@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */ 
+
+a {
+    outline: none;
+    cursor: pointer;
+    color: #0a8da1;
+}
+a:hover {
+    color: #000;
+}
+a:visited {
+    color: #204047;
+}
+a:focus {
+    outline: 0;
+}
+p {
+    margin: 0px;
+    padding: 0px 0px 22px;
+}
+img {
+    max-width: 100%;
+    border: none;
+}
+form {
+    margin: 0px;
+    padding: 0px;
+}
+input, textarea, select, option {
+    font-size: 1em;
+    resize: none;
+    font-weight: 300;
+}
+input, textarea, select {
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin: 2px;
+}
+input.formBoxWide, textarea.formBoxWide {
+    width: 98%;
+}
+h1, h2, h3 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px 0px 22px;
+}
+sup {
+    font-size: 0.571em; /* 8/14 */
+}
+ul, ol {
+    margin: 0px 0px 24px 12px;
+    padding: 0px 0px 0px 10px;
+}
+ul li {
+    list-style: square;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 0px 3px 2px;
+}
+ul.arrowList {
+    margin: 0px 0px 10px 12px;
+    padding: 0px 0px 0px 10px;
+}
+ul.arrowList li {
+    list-style: url(../images/arrow.gif);
+    margin: 0px 0px 0px 2px;
+    padding: 0px 0px 10px 2px;
+}
+iframe {
+    border: none;
+}
+img.imgBlock {
+    display: block;
+    margin: 0 auto;
+}
+.p-L {
+    margin-left: 30px;
+}
+.p-R {
+    margin-right: 30px;
+}
+.p-B {
+    margin-bottom: 30px;
+}
+.p-T {
+    margin-top: 30px;
+}
+.p-TB {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.p-LB {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.p-LTB {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.p-RB {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.p-RTB {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.circled {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-shape-outside: circle(50%);
+    shape-outside: circle(50%);
+    shape-margin: 20px;
+}
+.shape {
+    -webkit-shape-outside: circle(50%);
+    shape-outside: circle(50%);
+    shape-margin: 20px;
+}
+.hoverImg:hover, a.hoverImg:hover, a.hoverImg img:hover, input.hoverImg:hover {
+    -moz-opacity: 0.65;
+    -khtml-opacity: 0.65;
+    opacity: 0.65;
+}
+a.btn, a.btn:hover, input.btn {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 2px 9px;
+    margin: 0px;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px 6px 6px 6px;
+}
+a.btn.large, a.btn.large:hover, input.btn.large {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 12px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+a.btn, input.btn {
+    /*color: #FFF;
+	background: #0a8da1;
+	border: 1px solid #0a8da1;*/
+    display: inline-block;
+    border: none;
+    background-color: #00c0da;
+    /*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.47);*/
+    color: #FFF;
+    /*padding: 10px 20px;*/
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;/*	-webkit-box-shadow: 2px 2px 0px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 2px 2px 0px 1px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 0px 1px rgba(0,0,0,0.3);*/
+}
+a.btn:hover, input.btn:hover {
+    color: #FFF;
+    background: #333;/*	border: 1px solid #333;*/
+}
+
+a.btn.grey, input.btn.grey {
+    color: #FFF;
+    background: #999;
+    border: 1px solid #999;
+}
+a.btn.grey:hover, input.btn.grey:hover {
+    color: #FFF;
+    background: #333;
+    border: 1px solid #333;
+}
+
+
+a.btn.lightgrey, input.btn.lightgrey {
+    color: #666;
+    background: #ccc;
+    border: 1px solid #ccc;
+}
+a.btn.lightgrey:hover, input.btn.lightgrey:hover {
+    color: #FFF;
+    background: #333;
+    border: 1px solid #333;
+}
+
+
+a.blk {
+    color: #000;
+}
+a.blk:hover {
+    color: #F60;
+}
+
+/**cart buttons-----------------***/
+.cart-btn-wrap {
+	font-size: 0;
+	text-align: right;
+}
+.cart-btn-wrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+a.btn.checkout, a.btn.checkout:hover, input.btn.checkout, input.btn.checkout:hover {
+    background-image: url(/images/icon-cart.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding-left: 45px;
+    padding-right: 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+/*a.btn.checkout-submit, a.btn.checkout-submit:hover{
+	background-image:url(/images/checkout-icon.png);
+	background-repeat:no-repeat;
+	    background-position: 8px 2px;
+    padding-left: 50px;
+    padding-right: 20px;
+}*/
+
+a.btn.continue-shopping, a.btn.continue-shopping:hover {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    padding: 8px 20px;
+}
+a.btn.continue-shopping {
+    color: #FFF;
+    background-color: #2c8da0;
+}
+a.btn.continue-shopping:hover {
+    color: #FFF;
+    background: #333;
+}
+.cart-btn-wrap a {
+	vertical-align: top;
+}
+
+
+/* classes */
+.title {
+    color: #005a66;
+    font-weight: 700;
+    font-size: 1.500em;/* 24 */
+    line-height: 1.2;
+}
+.subtitle {
+    color: #0a8da1;
+    font-weight: 700;
+    font-size: 1.250em;/* 20 */
+    line-height: 1.2;
+}
+.underline {
+    padding-bottom: 1px solid #CCC;
+}
+.alertText {
+    color: #F00;
+}
+.bodyCopy {
+    font-size: 1em;
+}
+.largeCopy {
+    font-size: 1.143em; /* 16/14 */
+}
+.smallCopy {
+    font-size: 0.857em; /* 12/14 */
+}
+.caption {
+    font-size: 0.857em; /* 12/14 */
+    font-style: italic;
+}
+.horizontal, .horizontalClear {
+    margin: 0px;
+    padding: 0px 0px 5px;
+    width: auto;
+    border-top: 1px dotted #999;
+}
+.horizontalClear {
+    clear: both;
+}
+.horizontal-Top {
+    border-top: 1px dotted #999;
+    padding-top: 20px;
+}
+.colorTxt, .txt-color {
+    color: #7A8AA1;
+}
+.nowrap, .tel {
+    white-space: nowrap;
+}
+.floatRight, .right {
+    float: right;
+}
+.floatLeft, .left {
+    float: left;
+}
+.right.half, .left.half {
+    width: 48.04687%; /* 492/1024 */
+}
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-top {
+    vertical-align: top;
+}
+/************ allow video & maps to resize  **************/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* tables */
+#content table, #content table.tablePad {
+    width: 100%;
+    margin: 0px 0px 16px;
+}
+table td {
+    padding: 0px 8px 8px 0px;
+}
+table.tablePad td {
+    padding: 5px;
+}
+/* TO CLEAR FLOATS */
+.brclear {
+    clear: both;
+    height: 0;
+    margin: 0;
+    font-size: 5px;
+    line-height: 0px;
+}
+
+
+/***FAUX RADIO BUTTONS***********/
+/* The container */
+.fauxradio {
+    display: block;
+    position: relative;
+    padding-top:5px;
+    margin: 0 auto 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.fauxradio.fauxradio-inline {
+	padding-left: 20px;
+	display: inline-block;
+}
+/* Hide the browser's default radio button */
+.fauxradio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radiocheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #FFF;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+.radiocheck.radiocheck-center {
+	left: 40%;
+}
+.fauxradio.fauxradio-inline .radiocheck {
+	margin-top: 7px;
+}
+/* On mouse-over, add a grey background color */
+.fauxradio:hover input ~ .radiocheck {
+    background-color: #FFF;
+}
+
+/* When the radio button is checked, add a blue background */
+.fauxradio input:checked ~ .radiocheck {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiocheck:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.fauxradio input:checked ~ .radiocheck:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.fauxradio .radiocheck:after {
+ 	top: 4px;
+	left: 4px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: white;
+}

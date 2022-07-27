@@ -1,0 +1,41 @@
+[
+	{
+		"url": "https://www.globaloring.com/as568-size-chart/",
+		"data_sets": [
+			[1 ,0]
+		]
+	},
+	{
+		"url": "https://www.globaloring.com/jisb-2401-metric-orings-2/",
+		"data_sets": [
+			[0 ,0],
+			[1 ,1],
+			[2 ,2],
+			[3 ,3]
+		],
+		"sub": [
+			"",
+			"-P",
+			"-G",
+			"-S"
+		]
+	},
+	"https://www.globaloring.com/parker-500-series/",
+	"https://www.globaloring.com/international-o-ring-size-cross-reference-table/",
+	"https://www.globaloring.com/generic-sizes/",
+	"https://www.globaloring.com/iso-3601-metric-orings/",
+	"https://www.globaloring.com/bs4518/",
+	"https://www.globaloring.com/bs1806/",
+	"https://www.globaloring.com/sms1586/",
+	"https://www.globaloring.com/din-3771/",
+	"https://www.globaloring.com/nft47501/",
+	"https://www.globaloring.com/backup-ring-size-chart/",
+	"https://www.globaloring.com/o-ring-cord-tolerances/",
+	{
+		"url": "https://www.globaloring.com/metric-oring-tolerance-chart/",
+		"data_sets": [
+			[1 ,0]
+		]
+	},
+	"https://www.globaloring.com/oil-seal-size-chart/"
+]
